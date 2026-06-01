@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    padding: 0 2vw;
+    padding-top: 2.5%;
+}
+header{
+    display: flex;
+    gap: 16vw;
+    position: relative;
+}
+#logimg{
+    width: 70px;
+}
+.sf{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    color: #51050a;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+.sf p:first-child{
+    align-self: end;
+}
+.center-header{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.first-title{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    margin-top: 13px;
+    color: #51050a;
+}
+.rm{
+   color: #ad9698;
+}
+.vc{
+   color: #51050a; 
+}
+.first-title span{
+    display: flex;
+    align-items: center;
+}
+.first-title img{
+    width: 7vw;
+}
+.second-titlediv{
+    align-self: end;
+    text-transform: uppercase;
+}
+.second-titlediv p{
+    font-size: 3.5vw;
+    line-height: 1;
+    font-family: sans-serif;
+}
+.second-titlediv span{
+    display: block;
+}
+.third-titlediv{
+    align-self: center;
+    margin-left: 10%;
+    font-size: 1vw;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    color: #51050a;
+}
+.third-titlediv span{
+    display:block;
+}
+section{
+    height: 26vh;
+    display: flex;
+    width: 100%;
+}
+.secdiv1{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+.secdiv2{
+    height: 100%;
+    width: 62%;
+    display: flex;
+    gap: 10px;
+}
+.secdiv2 div{
+    flex: 1;
+}
+.secdiv2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: top;
+    border-radius: 10px;
+}
+#secdiv1content{
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    font-size: 2vw;
+    font-family: sans-serif;
+    color: #51050a;
+}
+.lastdiv h3{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+     font-size: 3.5vw;
+     font-weight: 100;
+}
+.lastdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 30vh;
+}
+.lastdiv p{
+display: flex;
+flex-direction: column;
+align-items: end;
+color: #51050a;
+}
+.brand{
+    display: block;
+}
+.mc{
+    color: #51050a;
+}
+.lc{
+    color: #ad9698;
+}

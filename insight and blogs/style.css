@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    padding: 0 3vw;
+    background-color: black;
+    color: white;
+}
+.myNav{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: monospace;
+}
+.menuitems{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.menuitems h4{
+    font-weight: 100;
+}
+.titlediv{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 31vh;
+    gap: 20px;
+}
+.titleinsight{
+    font-size: 7vw;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.btnsdiv button{
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    background: transparent;
+    border: none;
+    color: white;
+    transition: all ease;
+}
+.btnsdiv{
+display: flex;
+gap: 30px;
+justify-content: center;
+}
+#allbtn{
+background-color: rgb(255,73,8);
+}
+.btnsdiv button:hover{
+background-color: rgb(255,73,8);
+}
+.cardsdiv{
+    display: flex;
+    width: 100%;
+    height: calc(100% - 42vh);
+    gap: 15px;
+}
+.left, .center, .right{
+    background-color: cadetblue;
+    flex:1;
+    border-radius: 20px;
+    background: rgb(20, 20, 20);
+}
+.bottomchild{
+       height: 36vh;
+}
+.bottomchild img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+border-radius: 20px;
+}
+#cocktailimg{
+object-position: top;
+}
+.contentdiv{
+    padding: 0 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.contentdiv button{
+padding: 6px 14px;
+border-radius: 17px;
+font-size: 17px;
+border: none;
+margin-bottom: 12px;
+background-color: rgb(74,21,3);
+color:rgb(237,161,129);
+}
+.contentdiv h4{
+    font-size: 22px;
+    font-weight: 100;
+}
+.contentdiv span{
+display: block;
+margin-bottom: 12px;
+}
+
+.contentdiv h3{
+    font-weight: 100;
+    font-size: 17px;
+    color: rgb(124, 124, 124);
+}
+#getstarted{
+    background: rgb(64 64 64);
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+}
